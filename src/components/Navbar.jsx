@@ -24,11 +24,11 @@ export function Navbar() {
    ]
 
    return (
-      <nav className="bg-none">
-         <div className="max-w-7xl mx-4 py-4">
-            <div className="relative flex items-center justify-between">
+      <nav className="bg-none absolute w-full">
+         <div className="max-w-7xl mx-8 py-2">
+            <div className="flex justify-between">
                {/* Title and Links */}
-               <div className="flex-1 flex items-center justify-between sm:items-stretch sm:justify-start">
+               <div className="flex items-center  sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex">
                      <Link to={"/"}>
                         <img
@@ -54,10 +54,10 @@ export function Navbar() {
                   </div>
                </div>
                {/* Toggle Button */}
-               <div className=" flex items-center sm:hidden">
+               <div className="flex items-center sm:hidden">
                   <button
                      onClick={() => setIsOpen(!isOpen)}
-                     className="inline-flex items-center justify-center p-2 rounded-md hover:text-white hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                     className="p-2 rounded-md hover:text-white hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                   >
                      <span className="sr-only">Open main menu</span>
                      <svg
@@ -80,7 +80,7 @@ export function Navbar() {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
-                        stroke="currentColor"
+                        stroke="white"
                         aria-hidden="true"
                      >
                         <path

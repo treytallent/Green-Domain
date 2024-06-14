@@ -1,5 +1,6 @@
 import { Navbar } from "../components/Navbar"
 import { Testimonials } from "../components/Testimonials"
+import { Feature2 } from "../components/Feature2"
 import { Link } from "react-router-dom"
 import { ChevronRightIcon } from "@heroicons/react/16/solid"
 
@@ -67,7 +68,7 @@ export function Home() {
                            className="bg-red-200 h-[232px] rounded-lg"
                         />
                         <div className="p-4">
-                           <h2 className="text-warmgray-1000 font-medium mb-4">
+                           <h2 className="text-warmgray-1000 font-medium mb-4 sm:text-2xl">
                               {item.title}
                            </h2>
                            <p className="text-sm mb-8 text-warmgray-700">
@@ -88,10 +89,11 @@ export function Home() {
                </div>
             </section>
             {/* Feature 2 */}
-            <section className="py-24 bg-warmgray-100">
+            <section className="py-24 bg-warmgray-100 px-4 sm:px-8">
                <h2 className="text-3xl mb-12 sm:text-4xl text-warmgray-1000 sm:text-center">
                   Sustainable homeowners can experience...
                </h2>
+               <Feature2 />
             </section>
             {/* Testimonials */}
             <section className="py-24 bg-warmgray-100 px-4 sm:px-8">

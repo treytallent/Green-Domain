@@ -1,0 +1,84 @@
+[
+   {
+      "id": 1,
+      "name": "William",
+      "quote": "“I can’t recommend sustainable home ownership enough. It’s not just a house, it’s a lifestyle.”",
+      "location": "Sydney, NSW",
+      "image": "Man1",
+      "isLarge": false,
+      "column": "left"
+   },
+   {
+      "id": 2,
+      "name": "Sophie",
+      "quote": "“Building a sustainable home was the best decision we ever made. Our energy bills have significantly reduced and we love knowing that we’re doing our part for the environment.”",
+      "location": "Perth, WA",
+      "image": "Woman1",
+      "isLarge": true,
+      "column": "center"
+   },
+   {
+      "id": 3,
+      "name": "Bian",
+      "quote": "“We’ve been living in our sustainable home for a year now and we couldn’t be happier. It’s truly changed our lives for the better.”",
+      "location": "Ballarat, VIC",
+      "image": "Woman2",
+      "isLarge": false,
+      "column": "right"
+   },
+   {
+      "id": 4,
+      "name": "Megan",
+      "quote": "“We love our sustainable home. It’s cozy, eco-friendly, and has all the modern amenities we need.”",
+      "location": "Darwin, NT",
+      "image": "Woman3",
+      "isLarge": false,
+      "column": "left"
+   },
+   {
+      "id": 5,
+      "name": "Jin",
+      "quote": "“Our sustainable home has improved our quality of life in so many ways. We couldn’t be happier.” ",
+      "location": "Gold Coast, QLD",
+      "image": "Man2",
+      "isLarge": false,
+      "column": "center"
+   },
+
+   {
+      "id": 6,
+      "name": "Oliver",
+      "quote": "“If you’re thinking about sustainable home ownership, don’t hesitate. It’s worth every cent.”",
+      "location": "Brisbane, QLD",
+      "image": "Man3",
+      "isLarge": false,
+      "column": "center"
+   },
+   {
+      "id": 7,
+      "name": "Jackson",
+      "quote": "“Our sustainable home is not only comfortable and beautiful, but it also saves us money every month. It’s a win-win situation.” ",
+      "location": "Bendigo, VIC",
+      "image": "Man4",
+      "isLarge": false,
+      "column": "right"
+   },
+   {
+      "id": 8,
+      "name": "Ava",
+      "quote": "“Building a sustainable home was a great investment. We’ve saved so much on energy costs.”",
+      "location": "Newcastle, NSW",
+      "image": "Woman4",
+      "isLarge": false,
+      "column": "center"
+   },
+   {
+      "id": 9,
+      "name": "Mia",
+      "quote": "““Choosing sustainable was perfect for our family. It’s spacious, modern, and energy-efficient.”",
+      "location": "Hobart, TAS",
+      "image": "Woman5",
+      "isLarge": false,
+      "column": "center"
+   }
+]

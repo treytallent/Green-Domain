@@ -87,7 +87,7 @@ export function Feature2() {
          <div className="hidden sm:grid grid-cols-12 row-gap-8">
             {features.map(item => (
                <div
-                  className={`col-start-2  col-span-6 p-8 cursor-pointer ${
+                  className={`col-start-1 lg:col-start-2  col-span-6 p-8 cursor-pointer ${
                      item.id === activeFeature.id
                         ? "bg-white rounded-tl-md rounded-bl-md shadow-md"
                         : null
@@ -109,7 +109,7 @@ export function Feature2() {
                   ) : null}
                </div>
             ))}
-            <div className="col-start-8 col-span-5 row-start-1 row-span-3">
+            <div className="col-start-7 lg:col-start-8 col-span-6 lg:col-span-5 row-start-1 row-span-3">
                <img
                   src={`src/assets/${activeFeature.image}.jpg`}
                   alt=""

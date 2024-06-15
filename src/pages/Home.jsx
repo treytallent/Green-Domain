@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar"
+import { Footer } from "../components/Footer"
 import { Testimonials } from "../components/Testimonials"
 import { Feature2 } from "../components/Feature2"
 import { Link } from "react-router-dom"
@@ -105,6 +106,7 @@ export function Home() {
                </div>
             </section>
          </main>
+         <Footer />
       </>
    )
 }

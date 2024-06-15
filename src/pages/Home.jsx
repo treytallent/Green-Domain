@@ -47,10 +47,10 @@ export function Home() {
                   alt=""
                />
                <div className="mx-4 sm:mx-8 grid grid-cols-4 gap-4  sm:grid-cols-12 lg:gap-x-8">
-                  <h1 className="text-warmgray-1000 text-5xl md:text-7xl tracking-tight col-span-4 sm:col-span-6">
+                  <h1 className="text-warmgray-1000 tracking-tight text-5xl md:text-7xl lg:text-8xl col-span-4 sm:col-span-8">
                      Sustainable living starts here
                   </h1>
-                  <p className="text-warmgray-700 col-span-4 sm:col-span-4">
+                  <p className="text-warmgray-700 col-span-4 sm:col-span-4 sm:col-start-9">
                      Building and living in a sustainable home should be easy.
                      So we made it that way.
                   </p>

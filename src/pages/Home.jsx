@@ -35,27 +35,26 @@ const feature1Cards = [
 export function Home() {
    return (
       <>
-         <div className="sm:ml-4 max-w-7xl lg:mx-auto">
+         <header className="max-w-7xl lg:mx-auto">
             <Navbar />
-         </div>
+            <img
+               src="./src/assets/home-1.jpg"
+               className="pl-4 mb-8 w-full object-cover rounded-bl-[50px] h-[50vh] sm:rounded-bl-[100px] sm:h-[70vh]"
+               alt=""
+            />
+            <div className="mx-4 sm:mx-8 grid grid-cols-4 gap-4  sm:grid-cols-12 lg:gap-x-8">
+               <h1 className="text-warmgray-1000 tracking-tight text-5xl md:text-7xl lg:text-8xl col-span-4 sm:col-span-8">
+                  Sustainable living starts here
+               </h1>
+               <p className="text-warmgray-700 col-span-4 sm:col-span-4 sm:col-start-9">
+                  Building and living in a sustainable home should be easy. So
+                  we made it that way.
+               </p>
+            </div>
+         </header>
          <main>
             {/* Header */}
-            <section className="pb-12 bg-white max-w-7xl xl:mx-auto">
-               <img
-                  src="./src/assets/home-1.jpg"
-                  className="pl-4 sm:pl-8 mb-8 rounded-bl-[50px] h-[50vh] sm:rounded-bl-[100px] sm:h-[70vh] w-full object-cover"
-                  alt=""
-               />
-               <div className="mx-4 sm:mx-8 grid grid-cols-4 gap-4  sm:grid-cols-12 lg:gap-x-8">
-                  <h1 className="text-warmgray-1000 tracking-tight text-5xl md:text-7xl lg:text-8xl col-span-4 sm:col-span-8">
-                     Sustainable living starts here
-                  </h1>
-                  <p className="text-warmgray-700 col-span-4 sm:col-span-4 sm:col-start-9">
-                     Building and living in a sustainable home should be easy.
-                     So we made it that way.
-                  </p>
-               </div>
-            </section>
+            <section className="pb-12 bg-white max-w-7xl xl:mx-auto"></section>
             <section className="pt-12 pb-24 px-4 sm:px-8 bg-warmgray-100">
                <div className="grid grid-cols-4 gap-4 max-w-7xl xl:mx-auto sm:grid-cols-12 xs:gap-x-8">
                   {feature1Cards.map(item => (

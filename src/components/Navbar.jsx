@@ -25,7 +25,7 @@ export function Navbar() {
 
    return (
       <nav className="bg-none absolute w-full">
-         <div className="max-w-7xl mx-8 py-2">
+         <div className="mx-8 py-2 sm:py-4">
             <div className="flex justify-between">
                {/* Title and Links */}
                <div className="flex items-center  sm:items-stretch sm:justify-start">

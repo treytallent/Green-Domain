@@ -49,8 +49,8 @@ export function Feature2() {
                            key={item.id}
                            className={`text-md p-2 rounded-md text-sm ${
                               item.id === activeFeature.id
-                                 ? "text-white bg-warmgray-1000"
-                                 : "text-warmgray-600 border  border-warmgray-600"
+                                 ? "text-white bg-cyan-800"
+                                 : "text-cyan-800 border  border-cyan-700"
                            }`}
                            onClick={() => setActiveFeature(item)}
                         >
@@ -78,7 +78,7 @@ export function Feature2() {
                   alt=""
                   className="rounded-md shadow-md"
                />
-               <p className="text-sm mt-4 text-warmgray-800">
+               <p className="text-sm mt-4 text-warmgray-700">
                   {activeFeature.caption}
                </p>
             </div>
@@ -96,7 +96,7 @@ export function Feature2() {
                   onClick={() => setActiveFeature(item)}
                >
                   <h3 className="text-warmgray-1000 text-2xl">{item.title}</h3>
-                  <p className="text-warmgray-800">{item.body}</p>
+                  <p className="text-warmgray-700">{item.body}</p>
                   {item.id === activeFeature.id ? (
                      <div className="mt-4">
                         <a
@@ -115,7 +115,7 @@ export function Feature2() {
                   alt=""
                   className="rounded-md shadow-md min-h-full object-cover"
                />
-               <p className="text-sm mt-4 text-warmgray-800">
+               <p className="text-sm mt-4 text-warmgray-700">
                   {activeFeature.caption}
                </p>
             </div>

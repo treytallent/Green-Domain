@@ -7,7 +7,7 @@ export function Footer() {
             <p className="text-white font-medium mb-4 sm:font-normal sm:text-xl lg:text-2xl">
                Your Home, Your Planet, Your Choice.
             </p>
-            <p className="text-warmgray-400 font-medium sm:font-normal sm:text-xl lg:text-2xl">
+            <p className="text-warmgray-500 font-medium sm:font-normal sm:text-xl lg:text-2xl">
                Helping Australians make the transition to sustainable living
                since 2024.
             </p>
@@ -27,19 +27,19 @@ export function Footer() {
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Fundamentals
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Buy, Build, or Renovate?
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Home Buying Process
                </Link>
@@ -50,20 +50,20 @@ export function Footer() {
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   First Home Builders
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Single Storey Builders
                </Link>
 
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Double Storey Builders
                </Link>
@@ -74,32 +74,32 @@ export function Footer() {
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   What’s New
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Success Stories
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Featured Homes
                </Link>
                <Link
                   to={null}
-                  className="text-sm text-warmgray-400 font-medium"
+                  className="text-sm text-warmgray-500 font-medium"
                >
                   Do-It-Yourself
                </Link>
             </div>
          </div>
          <div className="mt-24 mb-4 col-span-4 sm:col-span-12">
-            <p className="text-sm text-center text-warmgray-700">
+            <p className="text-sm text-center text-warmgray-600">
                © Green Domain, Inc. All rights reserved.
             </p>
          </div>

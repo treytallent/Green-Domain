@@ -74,7 +74,7 @@ export function Home() {
                            <p className="text-sm mb-8 text-warmgray-700">
                               {item.body}
                            </p>
-                           <div className="flex text-cyan-800">
+                           <div className="flex text-cyan-700">
                               <Link
                                  to={item.path}
                                  className="text-xs font-medium"

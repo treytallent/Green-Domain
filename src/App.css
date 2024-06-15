@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+   color: red;
+}
+
+/* Warmgray 700 colour on current page in navigation */
+a.active,
+a.active:hover,
+a.active:focus {
+   color: #625d52;
+}
+
+.mobile-nav {
+   transition: transform 300ms ease-in-out;
+}
+
+.mobile-nav-open {
+   transform: translateX(0);
+}
+
+.mobile-nav-closed {
+   transform: translateX(100%);
+}

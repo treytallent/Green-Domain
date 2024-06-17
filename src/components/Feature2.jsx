@@ -7,7 +7,7 @@ const features = [
       title: "Financial Independence",
       body: "Sustainable homes reduce energy consumption by 56-60%. Reinvested into your home loan can save you up to $115,000 in interest fees on an average-sized home.",
       link: "https://new.gbca.org.au/sustainable-homes/financial-benefits/",
-      image: "Man1",
+      image: "home-2",
       caption:
          "A vaulted living space with northern aspect at Bardolph Gardens allows sunlight to penetrate the concrete slab, keeping the house warm in winter and cool in summer.",
    },
@@ -17,8 +17,9 @@ const features = [
       title: "Negative Carbon Emissions",
       body: "Combining energy-efficient designs and renewable energy systems, sustainable homes can achieve net zero or negative carbon emissions by exporting excess energy into the grid.",
       link: "https://www.yourhome.gov.au/live-adapt/zero-carbon",
-      image: "Man2",
-      caption: "",
+      image: "home-3",
+      caption:
+         "This display home, the Delta 29MR, was built by Metricon Homes in Victoria to prove that Zero Net Carbon Homes look no different to any other.",
    },
    {
       id: 3,
@@ -40,7 +41,7 @@ export function Feature2() {
       <>
          {/* Mobile */}
          <div className="sm:hidden">
-            <div className="bg-white p-4 rounded-tl-md rounded-tr-md shadow-md sm:p-8">
+            <div className="bg-white p-4 rounded-tl-md rounded-tr-md border border-warmgray-200 sm:p-8">
                {/* Button & state modification */}
                <div className="flex flex-col gap-4">
                   {features.map(item => (
@@ -74,7 +75,7 @@ export function Feature2() {
             </div>
             <div className="mt-[-3px]">
                <img
-                  src={`src/assets/${activeFeature.image}.jpg`}
+                  src={`src/assets/${activeFeature.image}.webp`}
                   alt=""
                   className="rounded-md shadow-md"
                />
@@ -89,7 +90,7 @@ export function Feature2() {
                <div
                   className={`col-start-1 lg:col-start-2  col-span-6 p-8 cursor-pointer ${
                      item.id === activeFeature.id
-                        ? "bg-white rounded-tl-md rounded-bl-md shadow-md"
+                        ? "bg-white rounded-tl-md rounded-bl-md border border-warmgray-200"
                         : null
                   }`}
                   key={item.id}
@@ -111,9 +112,9 @@ export function Feature2() {
             ))}
             <div className="col-start-7 lg:col-start-8 col-span-6 lg:col-span-5 row-start-1 row-span-3">
                <img
-                  src={`src/assets/${activeFeature.image}.jpg`}
+                  src={`src/assets/${activeFeature.image}.webp`}
                   alt=""
-                  className="rounded-md shadow-md min-h-full object-cover"
+                  className="rounded-md border border-warmgray-200 min-h-full object-cover"
                />
                <p className="text-sm mt-4 text-warmgray-700">
                   {activeFeature.caption}

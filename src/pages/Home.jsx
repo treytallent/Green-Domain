@@ -60,7 +60,7 @@ export function Home() {
                   {feature1Cards.map(item => (
                      <div
                         key={item.title}
-                        className="bg-white col-span-4 rounded-lg overflow-hidden shadow-md p-1"
+                        className="bg-white col-span-4 rounded-lg overflow-hidden border border-warmgray-200 p-1"
                      >
                         <img
                            src={item.src}

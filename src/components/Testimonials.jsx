@@ -10,7 +10,7 @@ export function Testimonials() {
                .map(item => (
                   <div
                      key={item.id}
-                     className={`bg-white rounded-lg shadow-md p-4 lg:p-8 ${
+                     className={`bg-white rounded-lg border border-warmgray-200 p-4 lg:p-8 ${
                         item.isLarge ? "md:col-span-6" : "md:col-span-3"
                      }`}
                   >
@@ -39,7 +39,7 @@ export function Testimonials() {
                .map(item => (
                   <div
                      key={item.id}
-                     className={`bg-white rounded-lg shadow-md p-4 lg:p-8 ${
+                     className={`bg-white rounded-lg border border-warmgray-200 p-4 lg:p-8 ${
                         item.isLarge ? "md:col-span-6" : "md:col-span-3"
                      }`}
                   >
@@ -67,7 +67,7 @@ export function Testimonials() {
                .map(item => (
                   <div
                      key={item.id}
-                     className={`bg-white rounded-lg shadow-md p-4 lg:p-8 ${
+                     className={`bg-white rounded-lg border border-warmgray-200 p-4 lg:p-8 ${
                         item.isLarge ? "md:col-span-6" : "md:col-span-3"
                      }`}
                   >

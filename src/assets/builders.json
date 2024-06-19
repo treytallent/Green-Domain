@@ -1,0 +1,113 @@
+[
+   {
+      "id": 1,
+      "name": "EcoBuild Solutions",
+      "description": "EcoBuild Solutions, a fresh and innovative builder based in North Perth, specializes in residential construction and renovations. Despite being a new player in the industry, they’re already making waves by challenging the status quo of Western Australian construction. Their unique approach centers around eco-friendly practices, emphasizing the use of sustainable materials and energy-efficient designs. Whether it’s crafting bespoke homes or transforming existing spaces, EcoBuild Solutions aims to create living environments that harmonize with nature while providing comfort and functionality. Keep an eye on this promising newcomer as they continue to shape the future of sustainable building in Perth.",
+      "location": "North Perth, Perth",
+      "contact": null,
+      "website": null,
+      "price": "medium",
+      "image1": "builder_1_1",
+      "image2": "builder_1_2",
+      "image3": "builder_1_3",
+      "experience": "new",
+      "expertise": ["residential", "renovations"],
+      "rating": 4,
+      "reviews": [
+         {
+            "reviewerName": "John",
+            "reviewerImage": "",
+            "reviewerRating": 5,
+            "reviewDate": "June 18 2024",
+            "review": "EcoBuild Solutions provided an excellent service. Their team was professional and efficient, and they used high-quality, sustainable materials. I'm thrilled with the result and would highly recommend them."
+         },
+         {
+            "reviewerName": "Jane",
+            "reviewerImage": "",
+            "reviewerRating": 4,
+            "reviewDate": "June 16 2024",
+            "review": "I was impressed with the sustainable approach of EcoBuild Solutions. They completed the project on time and within budget. I would definitely use their services again."
+         }
+      ]
+   },
+   {
+      "id": 2,
+      "name": "Green Construct Innovations",
+      "description": "Green Construct Innovations, situated in Scarborough, Perth, is a reputable sustainable home builder with over a decade of experience. Their core values center around innovation, integrity, and exceptional customer service. As an environmentally friendly company, they prioritize projects with remarkable thermal capabilities and supreme energy efficiency. Their commitment to recycling, reusing materials, and minimizing waste sets them apart. Green Construct Innovations specializes in custom homes, each uniquely tailored to its specific environment. Additionally, they excel in renovations and additions, enhancing the character and charm of existing homes while integrating modern features. Their specialized solar passive renovation service further contributes to energy efficiency. Whether residential or commercial, their hard-working team ensures high-quality, defect-free homes delivered within timelines and budgets",
+      "location": "Scarborough, Perth",
+      "contact": null,
+      "website": null,
+      "price": "medium",
+      "image1": "builder_2_1",
+      "image2": "builder_2_2",
+      "image3": "builder_2_3",
+      "experience": "tenplus",
+      "expertise": ["residential"],
+      "rating": 5,
+      "reviews": [
+         {
+            "reviewerName": "Alice",
+            "reviewerImage": "",
+            "reviewerRating": 5,
+            "reviewDate": "",
+            "review": "Green Construct Innovations exceeded my expectations. Their commitment to sustainability and quality workmanship is commendable. I would not hesitate to recommend them."
+         }
+      ]
+   },
+   {
+      "id": 3,
+      "name": "SB Designs",
+      "description": "SB Designs, based in Perth City, is a sustainable home builder with over 5 years of experience. They specialize in residential building and renovations, offering architecturally designed homes that prioritize both aesthetics and ecological consciousness. Their homes integrate features like double-glazed windows, insulated doors, and wall insulation, aligning with principles such as Australian Passive Solar Design and German Passiv House. SB Designs not only contributes to a greener future but also ensures unparalleled comfort, energy efficiency, and long-term cost-effectiveness for homeowners",
+      "location": "Perth City, Perth",
+      "contact": null,
+      "website": null,
+      "price": "low",
+      "image1": "builder_3_1",
+      "image2": "builder_3_2",
+      "image3": "builder_3_3",
+      "experience": "fiveplus",
+      "expertise": ["residential", "renovations"],
+      "rating": null,
+      "reviews": null
+   },
+   {
+      "id": 4,
+      "name": "Skyline Designs",
+      "description": "Skyline Designs, a rising star in Perth’s skyline, has made a significant impact on the city’s architectural landscape. With a 32-story office tower completed as part of the $1 billion Capital Square project, Skyline Designs sets a new benchmark for sustainable office buildings1. The tower stands sleek and imposing, emphasizing both aesthetics and environmental consciousness. Its location near the iconic Emu Brewery site on Mounts Bay Road adds to its prominence. As a commercial builder, Skyline Designs prioritizes sustainability, creating workplaces that harmonize with the environment while providing functional spaces for businesses. Although specific details about their sustainable practices are not readily available, their contribution to Perth’s skyline underscores their commitment to innovative design and responsible construction2.",
+      "location": "Mt Lawley, Perth",
+      "contact": null,
+      "website": null,
+      "price": "medium",
+      "image1": "builder_4_1",
+      "image2": "builder_4_2",
+      "image3": "builder_4_3",
+      "experience": "fiveplus",
+      "expertise": ["commercial"],
+      "rating": null,
+      "reviews": null
+   },
+   {
+      "id": 5,
+      "name": "EcoSphere Building Solutions",
+      "description": "Ecosphere Building Solutions, based in Applecross, Perth, is a recognized leader in sustainable home construction. With over 10 years of experience, they specialize in designing and building up to 10-star eco homes. These homes prioritize comfort, sustainability, and energy efficiency. By integrating concepts like Australian Passive Solar Design and German Passiv House principles, they significantly reduce the need for artificial heating and cooling. Their eco-friendly houses feature low-flow fixtures, greywater systems, and drought-tolerant landscaping to minimize water usage. Additionally, they use low-VOC paints and finishes for healthier indoor air quality. Not only do these homes benefit the environment, but they also offer long-term cost savings. As demand for eco homes grows, their market value increases faster than non-energy-efficient custom homes",
+      "location": "Applecross, Perth",
+      "contact": null,
+      "website": null,
+      "price": "high",
+      "image1": "builder_5_1",
+      "image2": "builder_5_2",
+      "image3": "builder_5_3",
+      "experience": "tenplus",
+      "expertise": ["residential", "renovations"],
+      "rating": 5,
+      "reviews": [
+         {
+            "reviewerName": "James",
+            "reviewerImage": "",
+            "reviewerRating": 5,
+            "reviewDate": "June 19 2024",
+            "review": "EcoSphere were excellent. They were committed to sustainability and delivered a high-quality result. I would definitely hire them again."
+         }
+      ]
+   }
+]

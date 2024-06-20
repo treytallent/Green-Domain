@@ -1,4 +1,4 @@
-import testimonials from "../assets/testimonials.json"
+import testimonials from "../assets/json/testimonials.json"
 
 export function Testimonials() {
    return (
@@ -17,7 +17,7 @@ export function Testimonials() {
                      <p className="text-warmgray-1000 mb-4">{item.quote}</p>
                      <div className="flex">
                         <img
-                           src={`src/assets/${item.image}.jpg`}
+                           src={item.image}
                            alt=""
                            className="w-8 h-8 rounded-full my-auto"
                         />
@@ -46,7 +46,7 @@ export function Testimonials() {
                      <p className="text-warmgray-1000 mb-4">{item.quote}</p>
                      <div className="flex">
                         <img
-                           src={`src/assets/${item.image}.jpg`}
+                           src={item.image}
                            alt=""
                            className="w-8 h-8 rounded-full my-auto"
                         />
@@ -74,7 +74,7 @@ export function Testimonials() {
                      <p className="text-warmgray-1000 mb-4">{item.quote}</p>
                      <div className="flex">
                         <img
-                           src={`src/assets/${item.image}.jpg`}
+                           src={item.image}
                            alt=""
                            className="w-8 h-8 rounded-full my-auto"
                         />

@@ -58,7 +58,7 @@ export function LivingGuide() {
                {cards.map(item => (
                   <div
                      key={item.title}
-                     className={`bg-white col-span-4 rounded-lg overflow-hidden border border-warmgray-200 p-1 ${
+                     className={`bg-white col-span-4 rounded-lg overflow-hidden border border-warmgray-200 hover:shadow-md p-1 ${
                         item.complete ? null : "opacity-50"
                      }`}
                   >

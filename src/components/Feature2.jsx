@@ -27,7 +27,7 @@ const features = [
       title: "Year-Round Comfort",
       body: "Sustainable homes can combine passive heating and cooling, utilising the sun, shade and airflow to keep your home comfortable year-round without air conditioners or heaters.",
       link: "https://www.yourhome.gov.au/passive-design",
-      image: "Man3",
+      image: "home-4",
       caption: "",
    },
 ]
@@ -88,10 +88,10 @@ export function Feature2() {
          <div className="hidden sm:grid grid-cols-12 row-gap-8">
             {features.map(item => (
                <div
-                  className={`col-start-1 lg:col-start-2  col-span-6 p-8 cursor-pointer ${
+                  className={`rounded-tl-md rounded-bl-md col-span-6 p-8 cursor-pointer ${
                      item.id === activeFeature.id
-                        ? "bg-white rounded-tl-md rounded-bl-md border border-warmgray-200"
-                        : null
+                        ? "bg-white border border-warmgray-200"
+                        : "hover:border hover:border-warmgray-200"
                   }`}
                   key={item.id}
                   onClick={() => setActiveFeature(item)}
@@ -110,7 +110,7 @@ export function Feature2() {
                   ) : null}
                </div>
             ))}
-            <div className="col-start-7 lg:col-start-8 col-span-6 lg:col-span-5 row-start-1 row-span-3">
+            <div className="col-start-7 lg:col-start-7 col-span-6 lg:col-span-6 row-start-1 row-span-3">
                <img
                   src={`src/assets/${activeFeature.image}.webp`}
                   alt=""

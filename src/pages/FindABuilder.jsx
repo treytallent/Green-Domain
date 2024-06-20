@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { Filter } from "../components/Filter"
-import builders from "../assets/builders.json"
+import builders from "../assets/json/builders.json"
 import { Footer } from "../components/Footer"
 import { Navbar } from "../components/Navbar"
 import { Builder } from "../components/Builder"

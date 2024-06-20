@@ -147,14 +147,14 @@ export function Builder({
 
          <div
             onClick={() => setModalOpen(true)}
-            className="col-span-6 bg-white grid rounded-md overflow-hidden border border-warmgray-300 grid-cols-6 gap-4 lg:gap-x-8"
+            className="col-span-6 hover:shadow-md bg-white grid rounded-md overflow-hidden border border-warmgray-200 grid-cols-6 gap-4 lg:gap-x-8"
          >
             <img
                src={`src/assets/builder-img/${image1}.webp`}
-               className="col-span-2 h-60 w-full object-cover"
+               className="col-span-3 h-60 w-full object-cover"
                alt=""
             />
-            <div className="col-span-4 py-8 pr-8">
+            <div className="col-span-3 py-8 pr-8">
                <h2 className="text-md text-warmgray-1000">{name}</h2>
                <p className="text-sm text-warmgray-600">{location}</p>
                <div className="flex my-2 gap-2 text-warmgray-600">

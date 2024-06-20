@@ -1,6 +1,6 @@
 import { Footer } from "../components/Footer"
 import { Navbar } from "../components/Navbar"
-import fundamentals from "../assets/fundamentals.json"
+import fundamentals from "../assets/json/fundamentals.json"
 import { ChevronRightIcon, SunIcon } from "@heroicons/react/16/solid"
 
 const iconRender = icon => {
@@ -91,7 +91,7 @@ export function Fundamentals() {
                   {fundamentals.map(item => (
                      <a
                         href={`#${item.id}`}
-                        className="col-span-4 text-cyan-700 flex flex-col gap-2 p-4 hover:border-cyan-700 hover:shadow bg-white rounded-md border border-warmgray-300"
+                        className="col-span-4 text-cyan-700 flex flex-col gap-2 p-4 bg-white rounded-md border border-warmgray-200 hover:shadow-md"
                         key={item.id}
                      >
                         {iconRender(item.icon)}

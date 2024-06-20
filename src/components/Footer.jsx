@@ -29,11 +29,14 @@ export function Footer() {
             </div>
             <div className="col-span-4 sm:col-span-6 sm:col-start-7 grid grid-cols-4 gap-8 md:grid-cols-6">
                <div className="col-span-4 md:col-span-2 flex flex-col gap-4">
-                  <Link to={null} className="text-sm text-white font-medium">
+                  <Link
+                     to={"/livingguide"}
+                     className="text-sm text-white font-medium"
+                  >
                      Sustainable Living
                   </Link>
                   <Link
-                     to={null}
+                     to={"/livingguide/fundamentals"}
                      className="text-sm text-warmgray-500 font-medium"
                   >
                      Fundamentals
@@ -52,27 +55,30 @@ export function Footer() {
                   </Link>
                </div>
                <div className="col-span-4 md:col-span-2 flex flex-col gap-4">
-                  <Link to={null} className="text-sm text-white font-medium">
+                  <Link
+                     to={"/findabuilder"}
+                     className="text-sm text-white font-medium"
+                  >
                      Sustainable Builders
                   </Link>
                   <Link
                      to={null}
                      className="text-sm text-warmgray-500 font-medium"
                   >
-                     First Home Builders
+                     Residential
                   </Link>
                   <Link
                      to={null}
                      className="text-sm text-warmgray-500 font-medium"
                   >
-                     Single Storey Builders
+                     Renovation
                   </Link>
 
                   <Link
                      to={null}
                      className="text-sm text-warmgray-500 font-medium"
                   >
-                     Double Storey Builders
+                     Commercial
                   </Link>
                </div>
                <div className="col-span-4 md:col-span-2 flex flex-col gap-4">

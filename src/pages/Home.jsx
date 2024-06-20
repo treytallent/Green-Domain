@@ -45,7 +45,7 @@ export function Home() {
          <header className="max-w-7xl lg:mx-auto">
             <Navbar />
             <img
-               src="./src/assets/home-1.jpg"
+               src="/home-1.jpg"
                className="pl-4 mb-8 w-full object-cover rounded-bl-[50px] h-[50vh] sm:rounded-bl-[100px] sm:h-[70vh]"
                alt=""
             />

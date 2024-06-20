@@ -7,7 +7,7 @@ const features = [
       title: "Financial Independence",
       body: "Sustainable homes reduce energy consumption by 56-60%. Reinvested into your home loan can save you up to $115,000 in interest fees on an average-sized home.",
       link: "https://new.gbca.org.au/sustainable-homes/financial-benefits/",
-      image: "home-2",
+      image: "/home-2.webp",
       caption:
          "A vaulted living space with northern aspect at Bardolph Gardens allows sunlight to penetrate the concrete slab, keeping the house warm in winter and cool in summer.",
    },
@@ -17,7 +17,7 @@ const features = [
       title: "Negative Carbon Emissions",
       body: "Combining energy-efficient designs and renewable energy systems, sustainable homes can achieve net zero or negative carbon emissions by exporting excess energy into the grid.",
       link: "https://www.yourhome.gov.au/live-adapt/zero-carbon",
-      image: "home-3",
+      image: "/home-3.webp",
       caption:
          "This display home, the Delta 29MR, was built by Metricon Homes in Victoria to prove that Zero Net Carbon Homes look no different to any other.",
    },
@@ -27,7 +27,7 @@ const features = [
       title: "Year-Round Comfort",
       body: "Sustainable homes can combine passive heating and cooling, utilising the sun, shade and airflow to keep your home comfortable year-round without air conditioners or heaters.",
       link: "https://www.yourhome.gov.au/passive-design",
-      image: "home-4",
+      image: "/home-4.webp",
       caption: "",
    },
 ]
@@ -75,7 +75,7 @@ export function Feature2() {
             </div>
             <div className="mt-[-3px]">
                <img
-                  src={`src/assets/${activeFeature.image}.webp`}
+                  src={activeFeature.image}
                   alt=""
                   className="rounded-md shadow-md"
                />
@@ -112,7 +112,7 @@ export function Feature2() {
             ))}
             <div className="col-start-7 lg:col-start-7 col-span-6 lg:col-span-6 row-start-1 row-span-3">
                <img
-                  src={`src/assets/${activeFeature.image}.webp`}
+                  src={activeFeature.image}
                   alt=""
                   className="rounded-md border border-warmgray-200 min-h-full object-cover"
                />

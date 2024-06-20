@@ -6,7 +6,7 @@
       "icon": "orientation",
       "body": "Orientation is how a building is positioned in relation to the sun’s paths in different seasons, as well as to prevailing wind patterns. In passive design, it is also about how living and sleeping areas are designed and positioned, either to take advantage of the sun and wind, or be protected from their effects.",
       "cta": "https://www.yourhome.gov.au/passive-design/orientation",
-      "image": "orientation_1",
+      "image": "/living-guide/orientation_1.webp",
       "image2": null,
       "caption": "Orientate your home to make best use of sunlight and winds."
    },
@@ -17,8 +17,8 @@
       "icon": "sun",
       "body": "In simple terms, thermal mass is the ability of a material to absorb, store and release heat. Materials such as concrete, bricks and tiles absorb and store heat. They are therefore said to have high thermal mass. Materials such as timber and cloth do not absorb and store heat and are said to have low thermal mass. In considering thermal mass, you will also need to consider thermal lag. Thermal lag is the rate at which heat is absorbed and released by a material. Materials with long thermal lag times (for example, brick and concrete) will absorb and release heat slowly; materials with short thermal lag times (for example, steel) will absorb and release heat quickly.",
       "cta": "https://www.yourhome.gov.au/passive-design/thermal-mass",
-      "image": "thermal_mass_1",
-      "image2": "thermal_mass_2",
+      "image": "/living-guide/thermal_mass_1.webp",
+      "image2": "/living-guide/thermal_mass_2.webp",
       "caption": "Top: Thermal mass during summer.<br>Bottom: Thermal mass during winter."
    },
    {
@@ -28,7 +28,7 @@
       "icon": "wall",
       "body": "Insulation is a material that resists or blocks the flow of heat energy. Insulation is used to stop heat inside the home from escaping in winter, and to stop heat outside the home from entering in summer.<br>The best type and location of insulation will depend on your local climate, and whether the insulation is mainly needed to keep heat out or in (or both). The first step towards getting a good result from your insulation is to understand how your climate will affect the building.<br>For insulation to be effective, it should work in conjunction with good passive design. For example, if insulation is installed but the house is not properly shaded in summer, built-up heat can be kept inside by the insulation, creating an ‘oven’ effect.",
       "cta": "https://www.yourhome.gov.au/passive-design/insulation",
-      "image": "insulation_1",
+      "image": "/living-guide/insulation_1.webp",
       "image2": null,
       "caption": "Typical heat losses and gains without insulation in a temperate climate."
    },
@@ -39,7 +39,7 @@
       "icon": "shade",
       "body": "Shading simply means blocking the direct rays of the sun. For your home, shading can be provided by fixed or adjustable building elements such as eaves, awnings, fences, external blinds and trellises, or by natural elements such as trees and shrubs. Your home may also be shaded by nearby buildings and other features.<br>The best approach to shading your home depends on your climate and your building’s orientation. For warmer climates you may want to optimise shading, for mixed climates you may want to let sun into your home in winter and shade it in summer, and for cold climates you may want to minimise shading.",
       "cta": "https://www.yourhome.gov.au/passive-design/shading",
-      "image": "shading_1",
+      "image": "/living-guide/shading_1.webp",
       "image2": null,
       "caption": "Calculating sun angles for south of the Tropic of Capricorn (left) and north of the Tropic of Capricorn (right). North is on the horizontal axis."
    },
@@ -50,7 +50,7 @@
       "icon": "window",
       "body": "Glazing simply means the windows in your home, including both openable and fixed windows, as well as doors with glass and skylights.<br>Glazing actually just means the glass part, but it is typically used to refer to all aspects of an assembly including glass, films, frames and furnishings. Paying attention to all of these aspects will help you to achieve effective passive design.<br>Up to 87% of a home’s heating energy can be gained and up to 40% lost through windows. Improving your glazing’s thermal performance will reduce energy consumption, therefore lowering costs and greenhouse gas emissions.",
       "cta": "https://www.yourhome.gov.au/passive-design/glazing",
-      "image": "glazing_1",
+      "image": "/living-guide/glazing_1.webp",
       "image2": null,
       "caption": "Key properties of glass."
    }

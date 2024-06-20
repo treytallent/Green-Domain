@@ -12,7 +12,7 @@ const feature1Cards = [
       body: "A one-stop shop for everything you need to know about sustainable living.",
       cta: "Placeholder CTA",
       path: "/livingguide",
-      src: "src/assets/builder-img/builder_2_2.webp",
+      src: "/builder-img/builder_2_2.webp",
       alt: "image alt",
    },
    {
@@ -20,7 +20,7 @@ const feature1Cards = [
       body: "We collect and rate Perth's builders so you can get the best value for your money.",
       cta: "Find Your Builder",
       path: "/findabuilder",
-      src: "src/assets/builder-img/builder_3_1.webp",
+      src: "/builder-img/builder_3_1.webp",
       alt: "image alt",
    },
    {
@@ -28,7 +28,7 @@ const feature1Cards = [
       body: "Sustainable homeowners across Australia sharing their lessons to make your process easier.",
       cta: "Learn From Locals",
       path: "/community",
-      src: "src/assets/community.webp",
+      src: "/community.webp",
       alt: "image alt",
    },
 ]

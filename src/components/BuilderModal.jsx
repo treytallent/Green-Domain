@@ -72,17 +72,17 @@ export function BuilderModal({
                      </div>
                      <img
                         className="col-span-4 sm:col-span-6 object-cover rounded-md w-full h-full max-h-[40vh] items-stretch"
-                        src={`src/assets/builder-img/${image1}.webp`}
+                        src={image1}
                         alt=""
                      />
                      <img
                         className="col-span-4 sm:col-span-6 object-cover h-72 rounded-md w-full"
-                        src={`src/assets/builder-img/${image2}.webp`}
+                        src={image2}
                         alt=""
                      />
                      <img
                         className="col-span-4 sm:col-span-6 object-cover h-72 rounded-md w-full"
-                        src={`src/assets/builder-img/${image3}.webp`}
+                        src={image3}
                         alt=""
                      />
                   </DialogPanel>

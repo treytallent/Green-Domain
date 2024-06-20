@@ -150,7 +150,7 @@ export function Builder({
             className="col-span-6 hover:shadow-md bg-white grid rounded-md overflow-hidden border border-warmgray-200 grid-cols-6 gap-4 lg:gap-x-8"
          >
             <img
-               src={`src/assets/builder-img/${image1}.webp`}
+               src={image1}
                className="col-span-3 h-60 w-full object-cover"
                alt=""
             />

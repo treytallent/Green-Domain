@@ -14,16 +14,10 @@ export function Footer() {
                </p>
                <div className="flex gap-4 mt-4 mb-8">
                   <a href="https://www.instagram.com/" className="my-auto">
-                     <img
-                        src="/src/assets/svg/instagram.svg"
-                        alt="Instagram Logo"
-                     />
+                     <img src="/svg/instagram.svg" alt="Instagram Logo" />
                   </a>
                   <a href="https://www.facebook.com/" className="my-auto">
-                     <img
-                        src="/src/assets/svg/facebook.svg"
-                        alt="Facebook Logo"
-                     />
+                     <img src="/svg/facebook.svg" alt="Facebook Logo" />
                   </a>
                </div>
             </div>

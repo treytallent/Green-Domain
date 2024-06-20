@@ -125,13 +125,13 @@ export function Fundamentals() {
                      </div>
                      <div className="col-span-4 flex flex-col gap-4 justify-center">
                         <img
-                           src={`../src/assets/living-guide/${item.image}.webp`}
+                           src={item.image}
                            alt=""
                            className="object-fit border border-warmgray-300 rounded-md"
                         />
                         {item.image2 ? (
                            <img
-                              src={`../src/assets/living-guide/${item.image2}.webp`}
+                              src={item.image2}
                               alt=""
                               className="object-fit border border-warmgray-300 rounded-md"
                            />

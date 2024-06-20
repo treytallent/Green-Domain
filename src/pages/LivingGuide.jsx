@@ -2,6 +2,7 @@ import { ChevronRightIcon } from "@heroicons/react/16/solid"
 import { Footer } from "../components/Footer"
 import { Navbar } from "../components/Navbar"
 import { Link } from "react-router-dom"
+import { useEffect, useState } from "react"
 
 const cards = [
    {
@@ -34,8 +35,14 @@ const cards = [
 ]
 
 export function LivingGuide() {
+   const [isVisible, setIsVisible] = useState(false)
+
+   useEffect(() => {
+      setIsVisible(true) // Trigger the fade-in effect after component mounts
+   }, [])
+
    return (
-      <>
+      <div className={isVisible ? "fade-in" : ""}>
          <header className="bg-white border-b border-b-warmgray-300">
             <div className="max-w-7xl lg:mx-auto">
                <Navbar />
@@ -86,6 +93,6 @@ export function LivingGuide() {
             </section>
          </main>
          <Footer />
-      </>
+      </div>
    )
 }

@@ -79,8 +79,14 @@ export function FindABuilder() {
       setFilteredBuilders(filtered)
    }, [filterOptions, builders]) // Ensure 'builders' is also a dependency if it can change
 
+   const [isVisible, setIsVisible] = useState(false)
+
+   useEffect(() => {
+      setIsVisible(true) // Trigger the fade-in effect after component mounts
+   }, [])
+
    return (
-      <>
+      <div className={isVisible ? "fade-in" : ""}>
          <header className="bg-white border-b border-b-warmgray-300">
             <div className="max-w-7xl lg:mx-auto">
                <Navbar />
@@ -112,6 +118,6 @@ export function FindABuilder() {
             </section>
          </main>
          <Footer />
-      </>
+      </div>
    )
 }

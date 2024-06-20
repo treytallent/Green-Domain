@@ -4,6 +4,7 @@ import { Testimonials } from "../components/Testimonials"
 import { Feature2 } from "../components/Feature2"
 import { Link } from "react-router-dom"
 import { ChevronRightIcon } from "@heroicons/react/16/solid"
+import { useEffect, useState } from "react"
 
 const feature1Cards = [
    {
@@ -33,8 +34,14 @@ const feature1Cards = [
 ]
 
 export function Home() {
+   const [isVisible, setIsVisible] = useState(false)
+
+   useEffect(() => {
+      setIsVisible(true) // Trigger the fade-in effect after component mounts
+   }, [])
+
    return (
-      <>
+      <div className={isVisible ? "fade-in" : ""}>
          <header className="max-w-7xl lg:mx-auto">
             <Navbar />
             <img
@@ -109,6 +116,6 @@ export function Home() {
             </section>
          </main>
          <Footer />
-      </>
+      </div>
    )
 }

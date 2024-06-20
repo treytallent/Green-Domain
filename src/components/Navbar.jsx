@@ -17,10 +17,10 @@ export function Navbar() {
          label: "Sustainable Builders",
          path: "/findabuilder",
       },
-      {
-         label: "Community",
-         path: "/community",
-      },
+      // {
+      //    label: "Community",
+      //    path: "/community",
+      // },
    ]
 
    return (
